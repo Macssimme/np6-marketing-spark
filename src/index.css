@@ -90,23 +90,3 @@
   background: linear-gradient(to right, white, white) padding-box,
     linear-gradient(to right, #003ca9, #00BEA2) border-box;
 }
-
-.accent-gradient-text {
-  @apply bg-gradient-to-r from-np6-teal via-np6-red to-np6-blue bg-clip-text text-transparent;
-}
-
-.accent-gradient-bg {
-  @apply bg-gradient-to-r from-np6-blue via-np6-red to-np6-teal;
-}
-
-.pulse-accent {
-  @apply relative;
-}
-
-.pulse-accent::before {
-  @apply content-[''] absolute -inset-1 rounded-full bg-np6-red opacity-30 blur-sm animate-pulse;
-}
-
-.hover-scale-accent {
-  @apply transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-np6-red/20;
-}

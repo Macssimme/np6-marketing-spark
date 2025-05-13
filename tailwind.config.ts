@@ -56,7 +56,6 @@ export default {
 				np6: {
 					blue: '#003ca9',
 					teal: '#00BEA2',
-					red: '#ef054a'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
